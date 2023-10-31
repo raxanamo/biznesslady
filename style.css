@@ -11,6 +11,7 @@
 .container {
   max-width: 1400px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 nav {
@@ -38,7 +39,7 @@ nav .container .logo img{
 
 nav .container ul {
   display: flex;
-  gap: 20px;
+  gap: 30px;
 }
 
 nav .container ul li a {
@@ -75,7 +76,6 @@ nav .container button a {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 100px 0;
 }
 
 .first .container .box {
@@ -84,7 +84,8 @@ nav .container button a {
 }
 
 .first .container .box h1 {
-  font-size: 25px;
+  font-size: 80px;
+  background: darkgoldenrod;
 }
 
 .first .container .box p {
@@ -96,7 +97,7 @@ nav .container button a {
 
 .first .container .box h1 {
   color: black;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .first .container button {
@@ -142,12 +143,13 @@ nav .container button a {
 .second .container .left p {
   margin: 20px 0;
   color: grey;
+  font-size: 15px;
 }
 
 .second .container .left button {
   padding: 10px;
   font-size: 18px;
-  background: deepskyblue;
+  background: white;
   border: none;
   border-radius: 10px 0;
 }
@@ -158,7 +160,7 @@ nav .container button a {
 }
 
 .second .container .left button a {
-  color: white;
+  color: black;
 }
 .second .container img {
   width: calc(100% / 3 - 30px);
@@ -171,7 +173,7 @@ nav .container button a {
 
 .third h1 {
   font-weight: 500;
-  color: blueviolet;
+  color: black;
   font-size: 30px;
 }
 
@@ -183,7 +185,7 @@ nav .container button a {
 }
 
 .third .container .card {
-  width: calc(100% / 4 - 20px);
+  width: calc(100% / 4 - 15px);
   border: 1px solid;
   border-radius: 10px;
   overflow: hidden;
@@ -192,8 +194,8 @@ nav .container button a {
 .third .container .card picture img {
   width: 100%;
   height: 100%;
-  height: 380px;
-  object-fit: cover;
+  height: 450px;
+object-fit: cover;
 }
 
 .third .container .card .text-field {
@@ -221,35 +223,6 @@ nav .container button a {
 .third .container .card .text-field button a {
   color: white;
 }
-.fourth{
-  margin: 60px 0;
-}
-
-.fourth h1 {
-  font-weight: 500;
-  color: black;
-  font-size: 30px;
-}
-
-.fourth .container {
-  padding: 50px 0;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.fourth .container .card {
-  width: calc(100% / 4 - 20px);
-  border: 1px solid;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.fourth .container .card picture img {
-  width: 100%;
-  height: 100%;
-  height: 380px;
-}
 
 footer {
   height: 120px;
@@ -272,30 +245,5 @@ footer .container i {
   font-size: 30px;
   color: black;
 }
-@media screen and (max-width: 968px) {
-  .third .container .card {
-    width: calc(100% / 3 - 15px);
-  }
-}
 
-@media screen and (max-width: 680px) {
-  .third .container .card {
-   width: calc(100% / 2 - 15px);
-  }
-} 
-@media screen and (max-width: 400px) {
-  .third .container .card {
-    width: 100%;
-  }
-}  
-@media screen and (max-width:800px) {
-nav {
-  height: auto;
-  padding: 15px 0;
-}
-nav .container {
-  flex-direction: column;
-  gap: 30px;
-}  
-}
 
